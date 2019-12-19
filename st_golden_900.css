@@ -1,0 +1,397 @@
+﻿@media screen and (max-width: 890px) {
+    
+    /*Header section*/
+.head {
+
+    height: 600px;
+    }
+
+
+
+.navi {
+   
+    justify-content: space-around;
+    }
+
+.menu {
+    width: 70%;
+    justify-content: space-around;
+    }
+
+.txt_main {
+    
+    margin: 150px auto 0 auto;
+}
+
+#animate {
+    margin-bottom: 60px;
+    color: white;
+    font-size: 55px;
+    width: 19ch;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid yellow;
+    animation: one 0.7s step-end infinite, two 7s steps(19);
+}
+
+/*Section SERVICES*/
+
+.services {
+    height: 420px;
+    width: 75%;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+.labl {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.labl h {
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-bottom: 25px;
+
+}
+
+.labl p {
+    font-family: 'Poppins', sans-serif;
+
+    color: grey;
+    font-size: 16px;
+
+}
+
+.serv_item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.serv_card {
+    width: 31%;
+    height: 190px;
+    text-align: center;
+}
+
+.bord {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+
+    border: 3px solid #fed136;
+    border-radius: 50px;
+    margin-bottom: 15px;
+
+}
+
+.serv_card h {
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.serv_card p {
+    margin-top: 10px;
+    font-family: 'Roboto Slab', serif;
+
+    color: grey;
+    font-size: 14x;
+}
+
+
+/*Section OUR PORTFOLIO*/
+
+
+.portfolio {
+    height: 1150px;
+    width: 75%;
+    margin: 0 auto;
+
+}
+
+.port_gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.port_card {
+    width: 29%;
+    height: 380px;
+    text-align: center;
+    margin-bottom: 50px;
+
+
+}
+
+.port_card:hover {
+    transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.port_card img {
+    width: 100%;
+    margin-bottom: 20px;
+
+
+}
+
+.port_card h {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+.port_card p {
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+
+    color: grey;
+}
+
+
+/*Section ABOUT US*/
+
+.about_us {
+    height: 1550px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.about_card {
+    margin: 80px 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about_txt {
+    padding-top: 10px;
+    width: 37%;
+    line-height: 1.3;
+    color: dimgrey;
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.right {
+    text-align: end;
+}
+
+.about_txt h {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: black
+}
+
+.last_card {
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 190px;
+    height: 190px;
+    background-image: url(gold_st_img/about/Container_5.png);
+    background-size: cover;
+
+
+}
+
+.last_card h {
+
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+
+/*     section  OUR AMAZING TEAM */
+
+.our_team {
+    margin: 0 auto;
+    width: 75%;
+    height: 700px;
+
+}
+
+.team_prof {
+    margin: 100px 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.team_card {
+    width: 30%;
+    height: 350px;
+    text-align: center;
+}
+
+.team_card h {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+
+
+
+}
+
+.team_card img {
+    margin-bottom: 25px;
+}
+
+.team_card p {
+    font-family: 'Roboto Slab', serif;
+
+    font-size: 14px;
+    color: grey;
+}
+
+.team_social {
+    width: 150px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.iv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    height: 28px;
+    width: 28px;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+
+.team_txt {
+    text-align: center;
+    color: grey;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    padding: 0 150px;
+}
+
+/* <!-- sectiom BRAND SLIDER-->*/
+
+.brand_slide {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 75%;
+    height: 165px;
+
+
+}
+
+.owl-carousel div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*<!-- Footer-->*/
+
+.contact_us {
+    padding-top: 110px;
+    height: 670px;
+    background-color: #222222;
+    text-align: center;
+}
+
+.contact_us img {
+    position: absolute;
+
+
+}
+
+.form {
+    margin: 80px auto 40px auto;
+    width: 75%;
+    height: 212px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.form_in {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    width: 48%;
+
+}
+
+#name {
+
+    border-radius: 5px;
+    font-family: 'Roboto Slab', serif;
+    padding-left: 10px;
+    height: 20%;
+    width: 100%;
+    font-size: 14px;
+    color: grey;
+}
+
+#name:hover {
+    border: 3px solid #fed136;
+
+}
+
+#text {
+
+    border-radius: 5px;
+    font-family: 'Roboto Slab', serif;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    font-size: 16px
+}
+
+
+/*btn_top*/
+
+#sc_btn {
+    border-radius: 19px;
+    background-color: yellow;
+    opacity: 0.85;
+    height: 50px;
+    width: 70px;
+    display: block;
+    position: fixed;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    right: 60px;
+    bottom: 50px;
+}
+
+    
+    
+}
