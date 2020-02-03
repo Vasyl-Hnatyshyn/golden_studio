@@ -5,7 +5,7 @@ font-family: 'Roboto Slab', serif;
 font-family: 'Dancing Script', cursive;
 */
 
-* {
+*{
     margin: 0;
     padding: 0;
 
@@ -117,9 +117,9 @@ font-family: 'Dancing Script', cursive;
     font-weight: 800;
     background-color: #fed136;
     color: white;
-    font-size: 18;
+    font-size: 18px;
     text-transform: uppercase;
-    box-shadow: 2px;
+    
     padding: 20px 50px;
     border: 0px;
     border-radius: 6px;
@@ -202,7 +202,7 @@ font-family: 'Dancing Script', cursive;
     font-family: 'Roboto Slab', serif;
 
     color: grey;
-    font-size: 14x;
+    font-size: 14px;
 }
 
 
@@ -494,9 +494,7 @@ font-family: 'Dancing Script', cursive;
 
 @media screen and (max-width: 480px) {
 
-    .head {
-        height: 500px;
-    }
+    
 
     .navi {
         display: flex;
@@ -535,7 +533,7 @@ font-family: 'Dancing Script', cursive;
 
     .btn {
         font-size: 12px;
-        box-shadow: 2px;
+       
         padding: 15px 25px;
 
 
@@ -779,7 +777,7 @@ font-family: 'Dancing Script', cursive;
 .contact_us {
     height: 500px;
     padding-top: 20px;
-    height: auto:;
+    height: auto;
 
 }
 
@@ -844,7 +842,7 @@ font-family: 'Dancing Script', cursive;
     flex-wrap: wrap;
     overflow: hidden;
     padding: 1px;
-    padding: 1px;d
+    padding: 1px;
     height: 60px;
     width: 30px;
     display: block;
